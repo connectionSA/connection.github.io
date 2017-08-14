@@ -223,15 +223,15 @@ img
         padding-top: 80px;
         padding-bottom: 80px;
     }
-#feature p
+#about p
     {
         padding-top: 10px;
     }
-#feature span
+#about span
     {
         float: left;
     }
-#feature .fa
+#about .fa
     {
         background: #28a7e9;
         border-radius: 50%;
@@ -274,49 +274,49 @@ img
 /* end feature1 */
 
 /* start pricing */
-#pricing
+#participants
     {
         background: #f8f8f8;
         text-align: center;
         padding-top: 80px;
         padding-bottom: 80px;
     }
-#pricing h2
+#participants h2
     {
         padding-bottom: 60px;
     }
-#pricing .pricing
+#participants .pricing
     {
         background: #fff;
     }
-#pricing .active
+#participants .active
     {
         position: relative;
         bottom: 20px;
     }
-#pricing .pricing .pricing-title
+#participants .pricing .pricing-title
     {
         background: #28a7e9;
         color: #fff;
         font-weight: bold;
         padding: 30px;
     }
-#pricing .pricing .pricing-title p
+#participants .pricing .pricing-title p
     {
         font-size: 20px;
     }
-#pricing .pricing ul
+#participants .pricing ul
     {
         padding: 0;
         margin: 0;
     }
-#pricing .pricing ul li
+#participants .pricing ul li
     {
         display: block;
         list-style: none;
         padding: 16px;
     }
-#pricing .pricing .btn
+#participants .pricing .btn
     {
         background: transparent;
         border: 1px solid #28a7e9;
@@ -329,7 +329,7 @@ img
         margin-bottom: 30px;
         transition: all 0.3s ease;
     }
-#pricing .pricing .btn:hover {
+#participants .pricing .btn:hover {
     background: #28a7e9;
     color: #fff;
 }
@@ -421,13 +421,13 @@ footer
     .templatemo-box {
         margin-bottom: 30px;
     }
-    #pricing .active {
+    #participants .active {
         bottom: 0;
     }
     .pricing {
         margin-bottom: 20px;
     }
-    #feature img, #download img {
+    #about img, #download img {
         margin-top: 30px;
     }
     #feature1 img {
@@ -439,7 +439,7 @@ footer
         height: auto;
         line-height: 2em;
     }
-    #feature, #pricing, #download {
+    #feature, #participants, #download {
         padding-top: 20px;
         padding-bottom: 40px;
     }
