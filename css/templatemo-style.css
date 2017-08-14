@@ -217,7 +217,7 @@ img
 /* end divider */
 
 /* start feature */
-#feature
+#about
     {
         background: #f8f8f8;
         padding-top: 80px;
@@ -439,7 +439,7 @@ footer
         height: auto;
         line-height: 2em;
     }
-    #feature, #participants, #download {
+    #about,#participants, #download {
         padding-top: 20px;
         padding-bottom: 40px;
     }
