@@ -571,7 +571,47 @@ fieldset:last-child .next {
 
 
 }
+.submit-container{
+    margin-bottom: -1em;
+}
+.button-submit {
+    color:#fff;
+    background:#28a7e9;
+    display:block;
+    margin:0 auto;
+    padding:10px 5px !important;
+    width:100px!important;
+    border:1px solid #28a7e9 !important;
+    border-radius:1px !important;
+    font-weight:500;
+    font-family: "montserrat";
+    margin-top:1em;
+}
+.button-submit:hover {
 
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #28a7e9;
+}
+
+.mc-field-group input {
+width: 10%!important;
+    vertical-align: top;
+}
+
+.mc-field-group label {
+   display:inline-block;
+    width:80%;
+
+}
+#progressbar {
+    padding-left: 0;
+}
+#msform #mc-embedded-subscribe {
+    color: #fff;
+    font-size:1.2em;
+    font-family:"montserrat";
+}
+.mc-field-group li{padding-bottom:10px;}
+ 
 
 
 @media screen and (max-width:767px){
@@ -588,7 +628,10 @@ fieldset:last-child{
     overflow:scroll;
 
 
-    }}
+    }
+    .mc-field-group {min-height:300px;}
+
+  }
 
 @media screen and (min-width:992px){
 fieldset:last-child{
